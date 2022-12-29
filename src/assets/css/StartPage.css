@@ -1,0 +1,68 @@
+
+:root {
+    --gradient: linear-gradient(60deg, #0455BF, #011526, #011526, #0455BF, #011526, #011526)
+}
+
+
+.start-page {
+    size: 100%;
+    background: var(--gradient);
+    background-size: 400%;
+    animation: start-bg 10s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes start-bg {
+    0% {background-position: left}
+    100% {background-position: right}
+}
+
+.div-mywork {
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+.work-btn {
+    background-color: rgba(222, 20, 20, 0);
+    color: #0455BF;
+    width: 50%;
+    height: 2.3em;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 3px solid #0455BF;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1s;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em 0 0.3em 0;
+    border-radius: 5px;
+    border: 3px solid #0455BF;
+    height: 2em;
+    max-width: 12em;
+    color: white;
+    text-shadow: 4px 4px 4px  #0455BF;
+}
+.work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover, .btn-header-about:hover, .btn-header-home:hover {
+    background-position: right;
+}
+
+.work-btn:focus {
+    background-position: right;
+}
+
+@media (min-width: 768px) {
+    .welcome {
+        font-size: 4em;
+    }
+}
+

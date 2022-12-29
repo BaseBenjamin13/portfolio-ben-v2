@@ -1,0 +1,346 @@
+
+.home, .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 99vw;
+    background: var(--gradient);
+    background-size: 400%;
+    animation: start-bg 10s infinite alternate;
+}
+.header p {
+    margin: 2px;
+}
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    text-align: center;
+    background-color: rgba(4, 85, 191, .7);
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px #011526;   
+}
+
+
+.headerItem {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    justify-content : center;
+    align-items: center;
+}
+#welcome {
+    font-size: 300%;
+}
+.email-me, .resume {
+    padding: 15px;
+    margin: 0.2rem;
+    font-size: 170%;
+    background-color: #011526;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 81, 187, 0.5);
+}
+.resume:hover, .email-me:hover {
+    font-size: 200%;
+}
+
+.btn-header-project, .btn-header-about, .btn-header-home {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    color: #0455BF;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid #0455BF;
+    background-image: var(--gradient);
+    background-size: 400%;
+    transition: background-position 3s;
+}
+.nav-link {
+    margin: 2rem;
+}
+.btn-header-about, .btn-header-home {
+    font-family: "SF Mono", monospace;
+    font-size: 4.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 4rem;
+    margin-top: 1.5rem;
+}
+
+
+.ityped-cursor {
+    animation: blink 1s infinite;
+    
+  }
+  @keyframes blink {
+    50% {
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+
+.git-history-container {
+    margin-top: 20px;
+    padding: 1.5%;
+    background-color: rgba(4, 85, 191, .7);
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px #011526;  
+}
+
+
+
+/* PROJECTS */
+.project-list, .project-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.project-container {
+    position: relative;
+}
+
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011526;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);   
+}
+
+
+.project {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+    margin: 2em;
+    margin-bottom: 3em; 
+}
+.project-img {
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);
+    max-width: 90%;
+}
+
+.project-a {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+
+.dis-a-tag {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-title {
+    margin: 0rem;
+    margin-top: 1rem;
+    font-size: 3em;
+    text-shadow: 0px 0px 15px  #1a77f2;
+}
+
+.project-description {
+    color: white;
+    margin-bottom: 5em;
+    align-self: center;
+    background: black;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);  
+    animation: show-des-ani 3s;
+}
+.project-description li {
+    font-size: 120%;
+}
+.description-p {
+    font-size: 130%;
+}
+.hide-project-description {
+    color:rgba(255, 255, 255, 0);
+    height: 0rem;
+    background: black;
+    margin-bottom: 0em;
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, 0);
+    animation: hide-des-ani 3s;
+}
+.bulls {
+    padding: 5px;
+}
+
+.p-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p-icon {
+    background-color: rgb(4, 85, 191, 0.8);
+    margin: 1.5rem;
+    width: 5rem;
+    box-shadow: 3px 3px 10px 1px;
+}
+
+
+
+
+@keyframes show-des-ani {
+    from {
+        transform: translateY(-60%);
+        opacity: 0;
+        position: relative;
+        z-index: -50;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    0% {color:rgba(255, 255, 255, 0)}
+    0% {box-shadow: 0 0 0 0 rgba(86, 161, 191, .8)}
+    0% {margin-bottom: 0rem}
+    40% {color:rgba(255, 255, 255, 0)}
+    100% {color:rgba(255, 255, 255, 1)}
+    100% {margin-bottom: 5em;}
+    100% {box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8)}
+}
+@keyframes hide-des-ani {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-60%);
+        opacity: 0;
+        position: relative;
+        z-index: -50;
+    }
+    0% {color: white;}
+    0% {margin-bottom: 5em;}
+    0% {align-self: center;}
+    0% {background: black;}
+    0% {width: 60em;}
+    0% {height: 100%;}
+    0% {border-radius: 15px;}
+    0% {box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);}
+    30% {color:rgba(255, 255, 255, 0)}
+    100% {color:rgba(255, 255, 255, 0)}
+    100% {height: 0rem}
+    100% {width: 60em;}
+    100% {align-self: center;}
+    100% {margin-bottom: 0em;}
+    100% {box-shadow: 0 0 10px 10px rgba(86, 161, 191, 0)}
+}
+
+
+
+
+
+
+.back-btn {
+    background-color: rgba(222, 20, 20, 0);
+    color: #0455BF;
+    width: 7em;
+    height: 2.2em;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 3px solid #0455BF;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1.5s;
+    margin: 0.8em;
+}
+
+
+
+.show-des {
+    color: white;
+}
+.hide-des {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-flow: wrap;
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header {
+        margin-top: 10px;
+        width: 90vw; 
+    }
+    #welcome {
+        font-size: 260%;
+    }
+    .btn-header-project {
+        margin: 0.5rem;
+    }
+    .btn-header-about, .btn-header-home {
+        font-size: 2rem;
+        /* width: 8em; */
+    }
+    .project {
+        margin: 1em;
+        margin-bottom: 3em; 
+    }
+    .project-img {
+        max-width: 100%;
+    }
+    .project-title {
+        font-size: 2em;
+    }
+    .project-list, .project-container {
+        width: 90vw;
+    }
+    .project-list {
+        margin-bottom: 47%;
+    }
+    .email-me {
+        padding: 5px;
+        font-size: 130%;
+        background-color: #011526;
+        border-radius: 20px;
+        border: 5px solid rgb(0, 81, 187, 0.5);
+    }
+    .git-repo{
+        margin: 1rem;
+    }
+    .project-description li {
+        font-size: 100%;
+    }
+    .description-p {
+        font-size: 100%;
+    }
+    .p-icon {
+        margin: 1rem;
+        width: 20%;
+    }
+}
+
+

@@ -1,0 +1,24 @@
+
+
+starting 2022 July 29
+
+
+style brand statement. ✅
+remake description animation. ✅
+setup languages & Databases component. ✅
+add icon for each language. ✅
+add icon for each Database. ✅
+style languages & Databases component. ✅
+change meta tag. ✅
+setup frameworks component. ✅
+style frameworks component. ✅
+setup technologies component. ✅
+style technologies component. ✅
+resort projects. ✅
+add contact info. ✅
+setup icons display ✅
+add icons to project descriptions. ✅
+on mobile just show description without hover. ✅
+make project description mobile responsive. ✅
+make icons smaller, make them fit correctly in deployed version. ✅
+

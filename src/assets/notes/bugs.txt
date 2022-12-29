@@ -1,0 +1,9 @@
+
+
+
+
+#1:
+    width of screen is too large but not on about us page, on mobile and desktop.
+
+#2:
+    project onhover does not work on mobile, find mobile way of showing description. 
