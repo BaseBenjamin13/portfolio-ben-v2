@@ -1,4 +1,9 @@
 
+@keyframes start-bg {
+    0% {background-position: left}
+    100% {background-position: right}
+}
+
 .home, .about {
     display: flex;
     align-items: center;

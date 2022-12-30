@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+:root {
+    --gradient: linear-gradient(60deg, #0455BF, #011526, #011526, #0455BF, #011526, #011526)
+}
+
 body{
     font-family: "SF Mono", monospace;
 }
