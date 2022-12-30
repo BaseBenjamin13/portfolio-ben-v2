@@ -39,6 +39,10 @@
 #welcome {
     font-size: 300%;
 }
+#name {
+    color: var(--myGoldenrod);
+    font-size: 250%;
+}
 .email-container {
     display: flex;
 }
@@ -57,26 +61,30 @@
     font-size: 200%;
 }
 
-.btn-header-project, .btn-header-about, .btn-header-home {
+.header-btn, .btn-header-about, .btn-header-home {
+    font-family: "SF Mono", monospace;
     font-size: 2rem;
     font-weight: bold;
     width: 100%;
-    color: #0455BF;
-    border-radius: 20px;
+    color: var(--myGreen);
+    /* border-radius: 20px; */
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 3px solid var(--myGreen);
+    /* border: 3px solid var(--myGreen); */
     background-color: transparent;
     /* background-image: var(--gradient); */
     /* background-size: 400%;
     transition: background-position 3s; */
 }
+.header-btn:hover, .btn-header-about:hover, .btn-header-home:hover {
+    text-decoration:underline;
+    text-decoration-style:dashed;
+}
 .nav-link {
     margin: 2rem;
 }
 .btn-header-about, .btn-header-home {
-    font-family: "SF Mono", monospace;
     font-size: 4.5rem;
     padding-left: 5rem;
     padding-right: 5rem;
