@@ -19,7 +19,7 @@ function GitHistory() {
             fontSize={25}
             blockSize={15}
             blockRadius={5}
-            color={"#010D26"}
+            color={"#38A169"}
             
             // theme={{
             //         level0: uCMV("rgb(200,200,200)","rgb(44,44,44)"),

@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
 
 :root {
-    --gradient: linear-gradient(60deg, #0455BF, #011526, #011526, #0455BF, #011526, #011526);
+    --gradient: linear-gradient(60deg, #000000, #5E5E65, #000000);
     --myBlue: #021F59;
     --myGreen: #38A169;
     --myBlack: #000000;
     --myYellow: #FFF07C;
-    --myGray: #F0F7EE;
+    --myLightGray: #F0F7EE;
+    --myGray: #5E5E65;
+    --myAqua: #6dd4b28c;
+    --myLightAqua: #6dd4b2;
 
 }
 

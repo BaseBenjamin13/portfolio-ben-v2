@@ -27,9 +27,12 @@ function Header() {
             <h1 id="welcome">Welcome To My Portfolio</h1>
             <h1>Benjamin Morgiewicz</h1>
             <h1>The Software <span ref={titles}></span></h1>
-            <h1>Email Me</h1>
-            <a className="email-me" href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
-            <a className="resume" href={Resume} target="_blank" rel="noreferrer">My Resume</a>
+            <div className="email-container">
+                {/* <h1>Email Me  */}
+                <a className="email-me" href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
+                <a className="resume" href={Resume} target="_blank" rel="noreferrer">My Resume</a>
+                {/* </h1> */}
+            </div>
         </div>
         <div className="headerItem">
             <a href="https://www.linkedin.com/in/benjamin-morgiewicz/" target="_blank" rel="noreferrer">

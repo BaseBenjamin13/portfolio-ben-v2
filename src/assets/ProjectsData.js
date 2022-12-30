@@ -4,7 +4,7 @@ const ProjectData = [
         title: 'Tech Excess',
         githubFront: 'https://github.com/BaseBenjamin13/tech-excess-client',
         githubBack: 'https://github.com/BaseBenjamin13/tech-excess-server',
-        des: "Tech excess, is a tech store made and reviewed by Benjamin Morgiewicz",
+        des: "Tech excess is a tech store made and reviewed by Benjamin Morgiewicz.",
         bulls: [
             "Made with React, Django, PSQL, Python, and PayPal's API.",
             "In three weeks I learned and used Django's User, Knox authentication token, and PayPal",
