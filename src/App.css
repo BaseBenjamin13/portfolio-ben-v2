@@ -2,18 +2,23 @@
 
 :root {
     --gradient: linear-gradient(60deg, #000000, #5E5E65, #000000);
-    --myBlue: #021F59;
-    --myGreen: #38A169;
-    --myBlack: #000000;
+    /* --myBlue: #021F59;
     --myYellow: #FFF07C;
     --myLightGray: #F0F7EE;
     --myGray: #5E5E65;
     --myAqua: #6dd4b28c;
-    --myLightAqua: #6dd4b2;
-
+    --myLightAqua: #6dd4b2; */
+    --myDarkGray: #1C1C1C;
+    --myGray: #B4B4B4;
+    --myGoldenrod: #DAA520;
+    --myGold: #A57C00;
+    --myWhite: #FFFFFF;
+    --myGreen: #38A169;
+    --myRed: #C74031;
 }
 
 body{
     font-family: "SF Mono", monospace;
+    color: var(--myWhite);
 }
 
