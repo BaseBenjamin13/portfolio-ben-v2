@@ -17,7 +17,7 @@ function Project({ i, projects, setProjects, projectTitle,
         setProjects(projectCopy)
     }
 
-    let className
+    
 
   return (
     <div className="project-container" >
@@ -25,7 +25,7 @@ function Project({ i, projects, setProjects, projectTitle,
             <h1 className="project-title">{projectTitle}</h1>
         </a>
 
-        <a href={projectLink} className="project-a" target="_blank">
+        <a href={projectLink}  target="_blank">
             <div className="project" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img className="project-img" src={projectImg} />
             </div>

@@ -16,8 +16,7 @@ function Home() {
             </Link>
         </div>
 
-        {/* <Link to="/"><button className="back-btn">Back</button></Link> */}
-
+        <h1 className="my-projects-header">My Projects</h1>
         <ProjectList />
     </div>
   )
