@@ -20,9 +20,9 @@ function App() {
 					</Route>
 					{/* <Route exact path="/home">
 					</Route> */}
-					<Route exact path="/about">
+					{/* <Route exact path="/about">
 						<About />
-					</Route>
+					</Route> */}
 				</Switch>
 			</div>
 		</Router>

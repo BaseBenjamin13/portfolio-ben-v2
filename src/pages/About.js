@@ -10,12 +10,6 @@ import Techs from '../components/aboutme/Techs';
 function About() {
   return (
     <div className="about">
-        <Header />
-        <div className="headerItem">    
-            <Link className="nav-link" to="/">
-                <button className="btn-header-home">Home</button>
-            </Link>
-        </div>
 
         <BrandStatement />
 
