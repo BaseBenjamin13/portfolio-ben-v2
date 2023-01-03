@@ -1,27 +1,21 @@
 
 
 .brand-statement-container, .langs-container, .frame-container {
-    background-color: rgb(4, 85, 191, 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
-    border-radius: 50px;
-    box-shadow: 0 0 10px 10px #011526; 
     margin-bottom: 3em;
 }
 
 .about-me-title, .frame-title, .why-coding-title {
-    border-radius: 50px;
-    padding: 15px;
-    background-color: #011526;
-    color: #0455BF;
+    padding: 5px;
+    color: var(--myGoldenrod);
     font-size: 3rem;
-    box-shadow: 0 0 5px 5px #01284b; 
 }
 .why-coding-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .brand-statement-body {
