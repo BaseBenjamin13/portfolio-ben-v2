@@ -58,7 +58,7 @@
     border-radius: 20px;
 }
 .resume:hover, .email-me:hover {
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .header-btn, .btn-header-about, .btn-header-home {
@@ -72,7 +72,8 @@
     padding-bottom: 5px;
     background-color: transparent;
 }
-.header-btn:hover, .btn-header-about:hover, .btn-header-home:hover {
+.header-btn:hover, .btn-header-about:hover, .btn-header-home:hover,
+.resume:hover, .email-me:hover {
     text-decoration:underline;
     text-decoration-style:dashed;
 }
