@@ -145,9 +145,13 @@
     margin-bottom: 3em; 
 }
 .project-img {
+    padding: 5px;
     border-radius: 15px;
     box-shadow: 0 0 10px 10px var(--myDarkGray);
     max-width: 90%;
+}
+.project-img:hover {
+    border: 7px solid var(--myGreen);
 }
 
 .dis-a-tag {
