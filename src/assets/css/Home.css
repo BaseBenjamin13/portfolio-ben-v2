@@ -73,7 +73,7 @@
     background-color: transparent;
 }
 .header-btn:hover, .btn-header-about:hover, .btn-header-home:hover,
-.resume:hover, .email-me:hover {
+.resume:hover, .email-me:hover, .project-title:hover {
     text-decoration:underline;
     text-decoration-style:dashed;
 }
