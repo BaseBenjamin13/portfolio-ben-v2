@@ -312,7 +312,17 @@
     }
     .btn-header-about, .btn-header-home {
         font-size: 2rem;
-        /* width: 8em; */
+    }
+    .email-container {
+        display: grid;
+    }
+    .email-me, .resume {
+        text-decoration:underline;
+        text-decoration-style:dashed;
+    }
+    .email-me {
+        padding: 5px;
+        font-size: 130%;
     }
     .project {
         margin: 1em;
@@ -329,13 +339,6 @@
     }
     .project-list {
         margin-bottom: 47%;
-    }
-    .email-me {
-        padding: 5px;
-        font-size: 130%;
-        background-color: #011526;
-        border-radius: 20px;
-        border: 5px solid rgb(0, 81, 187, 0.5);
     }
     .git-repo{
         margin: 1rem;
