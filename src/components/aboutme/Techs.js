@@ -60,9 +60,9 @@ function Techs() {
         <h1 className="about-me-title">Technologies</h1>
         <div className="tech-icons-container">
             {
-                tech.map(icon => {
+                tech.map((icon, index) => {
                     return(
-                        <div className="icon">
+                        <div className="icon" key={index}>
                             <img src={icon.svg} className="dev-icon" alt={icon.alt} />
                             <h2>{icon.title}</h2>
                         </div>

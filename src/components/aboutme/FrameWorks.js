@@ -35,9 +35,9 @@ function FrameWorks() {
             <h1 className="frame-title">Frame Works</h1>
             <div className="icons-container">
                 {
-                    frameIcons.map(icon => {
+                    frameIcons.map((icon, index) => {
                         return(
-                            <div className="icon">
+                            <div className="icon" key={index}>
                                 <img src={icon.svg} className="frame-icon" alt={icon.alt} />
                                 <h2>{icon.title}</h2>
                             </div>

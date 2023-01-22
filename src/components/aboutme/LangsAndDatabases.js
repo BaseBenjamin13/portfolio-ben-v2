@@ -40,9 +40,9 @@ function LangsAndDatabases() {
         <h1 className="about-me-title">Languages and Databases</h1>
         <div className="icons-container">
             {
-                icons.map(icon => {
+                icons.map((icon, index) => {
                     return(
-                        <div className="icon">
+                        <div className="icon" key={index}>
                             <img src={icon.svg} className="dev-icon" alt={icon.alt} />
                             <h2>{icon.title}</h2>
                         </div>
