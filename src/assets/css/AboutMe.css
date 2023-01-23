@@ -16,6 +16,7 @@
 }
 
 .about-me-title, .frame-title, .why-coding-title {
+    margin-bottom: 0;
     padding: 5px;
     color: var(--myGoldenrod);
     font-size: 3rem;
@@ -63,4 +64,60 @@
 .frame-icon:hover {
     margin: 0rem;
     width: 12rem;
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .about-me-title, .frame-title {
+        font-size: 3rem;
+    }
+    .why-coding-title {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .brand-statement-body {
+        font-size: 1.4rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .icons-container, .tech-icons-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .icon {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .dev-icon {
+        margin: 1.5rem;
+        width: 7rem;
+        box-shadow: 5px 5px 10px 2px;
+        -webkit-transition: width 0.5s ease-in-out, margin 0.5s ease-in-out;
+    }
+    
+    .frame-icon {
+        margin: 2rem;
+        width: 9rem;
+        box-shadow: 5px 5px 10px 2px;
+        -webkit-transition: width 0.5s ease-in-out, margin 0.5s ease-in-out;
+    }
+    
+    .dev-icon:hover {
+        margin: 0rem;
+        width: 10rem;
+    }
+    .frame-icon:hover {
+        margin: 0rem;
+        width: 12rem;
+    }
 }
