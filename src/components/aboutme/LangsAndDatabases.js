@@ -37,7 +37,7 @@ function LangsAndDatabases() {
 
   return (
     <div className="langs-container">
-        <h1 className="about-me-title">Languages and Databases</h1>
+        <h1 className="langs-data-title">Languages and Databases</h1>
         <div className="icons-container">
             {
                 icons.map((icon, index) => {

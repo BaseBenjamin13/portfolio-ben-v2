@@ -57,7 +57,7 @@ function Techs() {
 
   return (
     <div className="langs-container">
-        <h1 className="about-me-title">Technologies</h1>
+        <h1 className="tech-title">Technologies</h1>
         <div className="tech-icons-container">
             {
                 tech.map((icon, index) => {

@@ -15,7 +15,7 @@
     margin-bottom: 3em;
 }
 
-.about-me-title, .frame-title, .why-coding-title {
+.about-me-title, .frame-title, .why-coding-title, .langs-data-title, .tech-title {
     margin-bottom: 0;
     padding: 5px;
     color: var(--myGoldenrod);
@@ -79,6 +79,10 @@
         text-align: center;
         padding: 0;
     }
+
+    .frame-title, .langs-data-title, .tech-title{
+        text-align: center;
+    }
     
     .brand-statement-body {
         font-size: 1.4rem;
@@ -89,35 +93,36 @@
     .icons-container, .tech-icons-container {
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 90%;
         justify-content: center;
     }
     
     .icon {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+        padding: 3px;
     }
     
     .dev-icon {
-        margin: 1.5rem;
-        width: 7rem;
+        margin: 1rem;
+        width: 5rem;
         box-shadow: 5px 5px 10px 2px;
         -webkit-transition: width 0.5s ease-in-out, margin 0.5s ease-in-out;
     }
     
     .frame-icon {
-        margin: 2rem;
-        width: 9rem;
+        margin: 1rem;
+        width: 5rem;
         box-shadow: 5px 5px 10px 2px;
         -webkit-transition: width 0.5s ease-in-out, margin 0.5s ease-in-out;
     }
     
     .dev-icon:hover {
         margin: 0rem;
-        width: 10rem;
+        width: 6rem;
     }
     .frame-icon:hover {
         margin: 0rem;
-        width: 12rem;
+        width: 6rem;
     }
 }

@@ -18,8 +18,6 @@ function GitHistory() {
             marginY={5}>
             My GitHub History
         </Heading>
-        
-        <div class="git-history">
 
         <GitHubCalendar
             fontSize={matches ? 15 : 25}
@@ -28,7 +26,7 @@ function GitHistory() {
             color={"#38A169"}
             username="basebenjamin13">
         </GitHubCalendar>
-        </div>
+        
     </Stack>
     </div>
   )
