@@ -26,7 +26,7 @@ function Header() {
         <div className="headerItem">
             <h1 id="welcome">Welcome To My Portfolio</h1>
             <h1 id="name">Benjamin Morgiewicz</h1>
-            <h1>The Software <span ref={titles}></span></h1>
+            <h1 className='the-software'>The Software <span ref={titles}></span></h1>
             <div className="email-container">
                 {/* <h1>Email Me  */}
                 <a className="email-me" href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
