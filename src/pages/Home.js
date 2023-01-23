@@ -15,7 +15,7 @@ function Home() {
                 <button className="btn-header-about">About Me</button>
             </Link>
         </div> */}
-
+        
         <h1 className="my-projects-header">My Projects</h1>
         <ProjectList />
         <About />

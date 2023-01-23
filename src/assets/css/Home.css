@@ -119,6 +119,7 @@
 
 .my-projects-header {
     font-size: 4em;
+    text-align: center;
 }
 
 .project-list {
@@ -325,6 +326,9 @@
     .email-me {
         padding: 5px;
         font-size: 130%;
+    }
+    .my-projects-header {
+        font-size: 3em;
     }
     .project {
         margin: 1em;
