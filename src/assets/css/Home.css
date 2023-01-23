@@ -108,10 +108,12 @@
     padding: 1.5%;
     background-color: transparent;
     border-radius: 50px;
-    /* box-shadow: 0 0 10px 10px #011526;   */
+    max-width: 90vw;
 }
 
-
+.git-history {
+    font-size: 5px;
+}
 
 /* PROJECTS */
 
