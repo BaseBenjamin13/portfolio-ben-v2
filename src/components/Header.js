@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { init } from 'ityped';
-import Resume from '../assets/imgs/Benjamin-Morgiewicz-Resume.docx';
 
 
 function Header() {
@@ -28,10 +27,8 @@ function Header() {
             <h1 id="name">Benjamin Morgiewicz</h1>
             <h1 className='the-software'>The Software <span ref={titles}></span></h1>
             <div className="email-container">
-                {/* <h1>Email Me  */}
                 <a className="email-me" href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
-                <a className="resume" href={Resume} target="_blank" rel="noreferrer">My Resume</a>
-                {/* </h1> */}
+                <a className="resume" href="https://docs.google.com/document/d/13UiQ3TOMY6_9RDQqnfWd92x5trSAhSIbrGzdXgJZ_Gk/edit?usp=sharing" target="_blank" rel="noreferrer">My Resume</a>
             </div>
         </div>
         <div className="headerItem">
