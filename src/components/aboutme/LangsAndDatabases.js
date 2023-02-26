@@ -6,32 +6,38 @@ function LangsAndDatabases() {
         {
             title: "JavaScript",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            alt: "javascript icon"
+            alt: "javascript icon",
+            link: "https://www.javascript.com"
         },
         {
             title: "Python",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-            alt: "python icon"
+            alt: "python icon",
+            link: "https://www.python.org"
         },
         {
             title: "HTML",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            alt: "html icon"
+            alt: "html icon",
+            link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML"
         },
         {
             title: "CSS",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            alt: "css icon"
+            alt: "css icon",
+            link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
             title: "PSQL",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-            alt: "sql icon"
+            alt: "sql icon",
+            link: "https://www.postgresql.org"
         },
         {
             title: "MongoDB",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-            alt: "mongo db icon"
+            alt: "mongo db icon",
+            link: "https://www.mongodb.com"
         },
     ])
 
@@ -42,10 +48,12 @@ function LangsAndDatabases() {
             {
                 icons.map((icon, index) => {
                     return(
-                        <div className="icon" key={index}>
-                            <img src={icon.svg} className="dev-icon" alt={icon.alt} />
-                            <h2>{icon.title}</h2>
-                        </div>
+                        <a href={icon?.link} target="_blank" className="remove-a-style">
+                            <div className="icon" key={index}>
+                                <img src={icon.svg} className="dev-icon" alt={icon.alt} />
+                                <h2>{icon.title}</h2>
+                            </div>
+                        </a>
                     )
                 })
             }

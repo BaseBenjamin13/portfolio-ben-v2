@@ -6,52 +6,62 @@ function Techs() {
         {
             title: "Handle Bars",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg",
-            alt: "handle bars icon"
+            alt: "handle bars icon",
+            link: "https://handlebarsjs.com"
         },
         {
             title: "Git",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-            alt: "git icon"
+            alt: "git icon",
+            link: "https://git-scm.com"
         },
         {
             title: "GitHub",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-            alt: "github icon"
+            alt: "github icon",
+            link: "https://github.com"
         },
         {
             title: "Heroku",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
-            alt: "heroku icon"
+            alt: "heroku icon",
+            link: "https://www.heroku.com"
         },
         {
             title: "Illustrator",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
-            alt: "Illustrator icon"
+            alt: "Illustrator icon",
+            link: "https://www.adobe.com/products/illustrator.html"
         },
         {
             title: "Visualstudio",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
-            alt: "visualstudio icon"
+            alt: "visualstudio icon",
+            link: "https://visualstudio.microsoft.com"
         },
         {
             title: "VS Code",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-            alt: "vs code icon"
+            alt: "vs code icon",
+            link: "https://code.visualstudio.com"
         },
         {
             title: "Unity",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg",
-            alt: "unity icon"
+            alt: "unity icon",
+            link: "https://unity.com"
         },
         {
             title: "Blender",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg",
-            alt: "blender icon"
+            alt: "blender icon",
+            link: "https://www.blender.org"
         },
         {
             title: "Photoshop",
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
-            alt: "photo shop icon"
+            alt: "photo shop icon",
+            link: "https://www.adobe.com/products/photoshop.html"
         },
     ])
 
@@ -62,10 +72,12 @@ function Techs() {
             {
                 tech.map((icon, index) => {
                     return(
-                        <div className="icon" key={index}>
-                            <img src={icon.svg} className="dev-icon" alt={icon.alt} />
-                            <h2>{icon.title}</h2>
-                        </div>
+                        <a href={icon?.link} target="_blank" className="remove-a-style">
+                            <div className="icon" key={index}>
+                                <img src={icon.svg} className="dev-icon" alt={icon.alt} />
+                                <h2>{icon.title}</h2>
+                            </div>
+                        </a>
                     )
                 })
             }
