@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { init } from 'ityped';
-
+import profileImg from '../assets/imgs/profile.jpeg';
 
 function Header() {
 
@@ -9,7 +9,7 @@ function Header() {
     useEffect(() => {
         init(titles.current, {
             showCursor: true,
-            backDelay: 1500,
+            backDelay: 1800,
             backSpeed: 60,
             strings: ['Engineer', 'Developer', 'Designer']
           })
@@ -24,6 +24,7 @@ function Header() {
         </div>
         <div className="headerItem">
             <h1 id="welcome">Welcome To My Portfolio</h1>
+            <img src={profileImg} id="profile-img"/>
             <h1 id="name">Benjamin Morgiewicz</h1>
             <h1 className='the-software'>The Software <span ref={titles}></span></h1>
             <div className="email-container">

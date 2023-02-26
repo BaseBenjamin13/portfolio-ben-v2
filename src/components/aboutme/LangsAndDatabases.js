@@ -48,7 +48,7 @@ function LangsAndDatabases() {
             {
                 icons.map((icon, index) => {
                     return(
-                        <a href={icon?.link} target="_blank" className="remove-a-style">
+                        <a href={icon?.link} target="_blank" rel="noreferrer" className="remove-a-style">
                             <div className="icon" key={index}>
                                 <img src={icon.svg} className="dev-icon" alt={icon.alt} />
                                 <h2>{icon.title}</h2>
