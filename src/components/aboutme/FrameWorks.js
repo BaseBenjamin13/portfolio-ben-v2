@@ -38,7 +38,7 @@ function FrameWorks() {
 
     return (
         <div className="frame-container">
-            <h1 className="frame-title">Frame Works</h1>
+            <h1 className="frame-title">Frameworks</h1>
             <div className="icons-container">
                 {
                     frameIcons.map((icon, index) => {
