@@ -11,7 +11,7 @@ function Header() {
             showCursor: true,
             backDelay: 1800,
             backSpeed: 60,
-            strings: ['Engineer', 'Developer', 'Designer']
+            strings: ['Engineer', 'Developer']
           })
     }, [])
     

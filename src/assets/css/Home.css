@@ -139,10 +139,8 @@
     flex-wrap: wrap;
     max-width: 80vw;
     justify-content: center;
-    /* background-color: #011526; */
     text-align: center;
     border-radius: 50px;
-    /* box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);    */
 }
 
 .project-container {
@@ -176,7 +174,6 @@
 .project-title {
     margin: 1rem;
     font-size: 3em;
-    /* text-shadow: 0px 0px 15px  #1a77f2; */
 }
 
 .project-description {
@@ -185,14 +182,11 @@
     align-self: center;
     background: black;
     max-width: 90%;
-    /* width: 90%; */
     border-radius: 15px;
     box-shadow: 0 0 10px 10px var(--myDarkGray);  
     animation: show-des-ani 3s;
 }
-/* .project-description li {
-    font-size: 120%;
-} */
+
 .description-p {
     font-size: 130%;
 }
