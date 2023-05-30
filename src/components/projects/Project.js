@@ -36,13 +36,13 @@ function Project({ i, projects, setProjects, projectTitle,
         <div className='project-description'>
             { project.githubBack ?
                 <h2>Github Repo: 
-                    <a className="git-repo" href={project.githubFront} target="_blank" rel="noreferrer"> front-end </a>
-                      |
+                    <a className="git-repo" href={project.githubFront} target="_blank" rel="noreferrer">front-end</a>
+                      | 
                     <a className="git-repo" href={project.githubBack} target="_blank" rel="noreferrer">back-end</a>
                 </h2>
                 : 
-                <h2>Github Repo: 
-                    <a href={project.githubFront} target="_blank" rel="noreferrer"> Here</a>
+                <h2>Github Repo:
+                    <a href={project.githubFront} target="_blank" rel="noreferrer">Here</a>
                 </h2>
             }
             <p className="description-p">{projectDes}</p>
