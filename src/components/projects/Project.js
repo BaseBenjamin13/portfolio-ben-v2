@@ -25,14 +25,16 @@ function Project({ i, projects, setProjects, projectTitle,
             <h1 className="project-title">{projectTitle}</h1>
         </a>
 
+        <a href={projectLink} target="_blank" className="dis-a-tag"> 
+            <h1 className="project-title" style={{fontSize: '2em'}}>Click to view</h1>
+        </a>
+
         <a href={projectLink}  target="_blank">
             <div className="project" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img className="project-img" src={projectImg} />
             </div>
         </a>
         
-     
-        {/* <div className={`${show ? 'project-description' : 'hide-project-description'}`}> */}
         <div className='project-description'>
             { project.githubBack ?
                 <h2>Github Repo: 
@@ -53,7 +55,6 @@ function Project({ i, projects, setProjects, projectTitle,
             </ul>
 
             <div className="p-icons" key={i}>
-            {/* {show && */}
             {
                 icons?.map((icon, i) => {
                     return <img key={i} src={icon} className="p-icon" />

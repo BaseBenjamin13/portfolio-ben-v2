@@ -6,7 +6,7 @@ function BrandStatement() {
     <div className="brand-statement-container">
         <h1 className="about-me-title">About Me</h1>
         <p className="brand-statement-body">
-        I Benjamin Morgiewicz, am a software engineer who loves to write and fix code to find
+        I am Benjamin Morgiewicz, a software engineer who loves to write and fix code to find
         a solution to any problem. I use my problem-solving brain and hard work
         experience to make life easier and more fun with intelligent code.
         </p>
