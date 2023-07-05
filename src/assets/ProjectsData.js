@@ -21,6 +21,31 @@ const ProjectData = [
         ]
     },
     {
+        title: 'Analytical',
+        githubFront: 'https://github.com/BaseBenjamin13/dashboard_client',
+        githubBack: 'https://github.com/darrius-brown/dashboard_django/tree/main',
+        des: "A group project that helps you manage client & invoice data.",
+        bulls: [
+            "I worked on the frontend while my teammate was on the backend.",
+            "We had regular standups to ensure great communication, time-management, and overall project success.",
+            "Utilized React, MUI, JavaScript, HTML, CSS, Python, Django, and SQL.",
+        ],
+        img: 'https://i.imgur.com/xczKVTc.png',
+        link: 'https://dbanalytical.netlify.app',
+        show: false,
+        icons: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+        ]
+    },
+    {
         title: 'Star Wars Social',
         githubFront: 'https://github.com/BaseBenjamin13/starwars-social',
         des: 'Star Wars Social - Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later.',
@@ -40,28 +65,6 @@ const ProjectData = [
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
-        ]
-    },
-    {
-        title: 'Jelly Jam',
-        githubFront: 'https://github.com/BaseBenjamin13/jellyjam-client-side',
-        githubBack: 'https://github.com/BaseBenjamin13/jellyjam-server-side',
-        des: "Group project: App that allows you to find music for free, using Spotify's music API ",
-        bulls: [
-            "Leveraged React, Express, MongoDB, Node.js, and Spotify's API.",
-            "I Made the client-side and server-side login/register pages, and create playlists/libraries, and carousels, with Spotify's API.",
-        ],
-        img: 'https://i.imgur.com/JWCl2rL.jpg',
-        link: 'https://jellyjam.netlify.app',
-        show: false,
-        icons: [
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
         ]
     },
