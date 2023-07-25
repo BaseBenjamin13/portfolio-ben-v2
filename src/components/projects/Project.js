@@ -21,17 +21,17 @@ function Project({ i, projects, setProjects, projectTitle,
 
   return (
     <div className="project-container" >
-        <a href={projectLink} target="_blank" className="dis-a-tag"> 
+        <a href={projectLink} target="_blank" rel="noreferrer" className="dis-a-tag"> 
             <h1 className="project-title">{projectTitle}</h1>
         </a>
 
-        <a href={projectLink} target="_blank" className="dis-a-tag"> 
+        <a href={projectLink} target="_blank" rel="noreferrer" className="dis-a-tag"> 
             <h1 className="project-title" style={{fontSize: '2em'}}>Click to view</h1>
         </a>
 
-        <a href={projectLink}  target="_blank">
+        <a href={projectLink} target="_blank" rel="noreferrer">
             <div className="project" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <img className="project-img" src={projectImg} />
+                <img className="project-img" src={projectImg} alt='Project'/>
             </div>
         </a>
         
@@ -57,7 +57,7 @@ function Project({ i, projects, setProjects, projectTitle,
             <div className="p-icons" key={i}>
             {
                 icons?.map((icon, i) => {
-                    return <img key={i} src={icon} className="p-icon" />
+                    return <img key={i} src={icon} className="p-icon" alt='technology icon'/>
                 })
             }
             </div>
