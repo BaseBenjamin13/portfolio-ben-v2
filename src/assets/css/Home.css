@@ -1,15 +1,9 @@
 
-@keyframes start-bg {
-    0% {background-position: left}
-    100% {background-position: right}
-}
+
 
 .home {
-    background: rgba(0, 0, 0, 0); 
     min-height: 100vh;
-    background-size: 400%;
-    background: var(--gradient); 
-    animation: start-bg 10s infinite alternate;
+
 }
 
 .home {
