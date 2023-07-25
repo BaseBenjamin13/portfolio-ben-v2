@@ -5,11 +5,13 @@
 }
 
 .home {
-    background: var(--gradient);
+    background: rgba(0, 0, 0, 0); 
     min-height: 100vh;
     background-size: 400%;
+    background: var(--gradient); 
     animation: start-bg 10s infinite alternate;
 }
+
 .home {
     display: flex;
     align-items: center;

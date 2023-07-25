@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <title>Benjamin Morgiewicz Portifolio</title>
-    <meta name="description" content="I Benjamin Morgiewicz, am a full-stack software engineer who loves to write and fix code to find a solution to any problem."/>
+    <meta name="description"
+        content="I Benjamin Morgiewicz, am a full-stack software engineer who loves to write and fix code to find a solution to any problem." />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7Q17LBZQL"></script>
     <script>
@@ -24,13 +25,30 @@
 
         gtag('config', 'G-X7Q17LBZQL');
     </script>
-
 </head>
 
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <canvas id='canvas1'></canvas>
+    
     <div id="root"></div>
 
+
+    <script>
+        var myView = document.getElementById('canvas1');
+
+        var renderer = PIXI.autoDetectRenderer(
+            '100%', '100%',
+            { antialias: false, transparent: true, view: myView });
+
+        document.body.appendChild(renderer.view);
+
+        var stage = new PIXI.Container();
+
+        renderer.render(stage);
+    </script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
