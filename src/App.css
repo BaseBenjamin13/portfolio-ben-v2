@@ -17,9 +17,18 @@
     --myRed: #C74031;
 }
 
+
+@keyframes start-bg {
+    0% {background-position: left}
+    100% {background-position: right}
+}
 body{
     font-family: "SF Mono", monospace;
     color: var(--myWhite);
+
+    background-size: 400%;
+    background-image: var(--gradient); 
+    animation: start-bg 10s infinite alternate;
 }
 
 .remove-a-style {
